@@ -1,12 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: black;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.image {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+    border-radius: 40%;
+    background: red;
+    margin-right: 1rem;
+    margin-left: 2rem;
 
-*/
+}
+
+.mainBox {
+    background: green;
+    width: 45rem;
+    height: 14rem;
+    padding: 4px;
+    border-radius: 3%;
+    margin-top: 300px;
+}
+
+.box {
+    display: flex;
+    font-size: 9rem;
+    justify-content: center;
+    background: black;
+    color: blue;
+    font-family: monospace;
+    border-radius: 3%;
+
+}
